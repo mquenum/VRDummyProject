@@ -44,4 +44,16 @@ public class ShibaManager : MonoBehaviour
     {
         _agent.SetDestination(_destination.position);
     }
+
+    public void ToggleNod()
+    {
+        if (_animator.GetBool("isNodding"))
+        {
+            _animator.SetBool("isNodding", false);
+        }
+        else
+        {
+            _animator.SetBool("isNodding", true);
+        }
+    }
 }
