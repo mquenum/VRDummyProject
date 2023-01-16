@@ -1,2 +1,2 @@
-#VR Dummy Project
+# VR Dummy Project
 Basic VR project
